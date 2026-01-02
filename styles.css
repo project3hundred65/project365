@@ -58,9 +58,9 @@ body {
   margin-bottom: 20px;
 }
 
-.about p {
-  max-width: 700px;
-  margin: 0 auto;
-  font-size: 1.1rem;
-  opacity: 0.85;
+.about {
+  padding: 80px 40px;
+  background: #f7f4ef;
+  text-align: center;
 }
+
