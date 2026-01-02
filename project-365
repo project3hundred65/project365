@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Project 365</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <h1>Project 365</h1>
+    <p>Building progress, one day at a time.</p>
+    <a href="#contact" class="btn">Get Started</a>
+  </header>
+
+  <section class="section">
+    <h2>What is Project 365?</h2>
+    <p>
+      Project 365 helps individuals and businesses commit to daily progress,
+      accountability, and long-term success through structured systems and support.
+    </p>
+  </section>
+
+  <section class="section dark">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div>Plan</div>
+      <div>Execute</div>
+      <div>Grow</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Why Project 365?</h2>
+    <p>
+      Consistency beats motivation. We focus on sustainable habits
+      that deliver results over time.
+    </p>
+  </section>
+
+  <section id="contact" class="section dark">
+    <h2>Contact</h2>
+    <p>Email: hello@project365.com</p>
+  </section>
+
+</body>
+</html>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.hero {
+  height: 100vh;
+  background: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: white;
+  color: #111;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.dark {
+  background: #f4f4f4;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-weight: bold;
+}
