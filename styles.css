@@ -18,6 +18,7 @@ body {
   align-items: center;
   text-align: center;
   padding: 40px;
+  background: transparent;
 }
 
 .hero h1 {
